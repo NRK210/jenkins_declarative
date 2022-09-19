@@ -1,10 +1,11 @@
 pipeline{
     agent any
-        stages{
+        stages{"code taken from scm"
             stage("WELCOME"){
                 steps{
                     echo "welcome to jenkins declarative"
-                }
-            }
+                     }
+                            }
         
-    }
+              }
+         }
